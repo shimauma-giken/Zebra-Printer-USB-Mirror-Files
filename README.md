@@ -1,9 +1,11 @@
 ## Zebra Link-OSプリンタ用のUSB-Mirrorファイル
+<br/>
 
 ### ダウンロード方法
 
 1. 本頁の[ <>Code ] > [ Download ZIP ]を選択し、ダウンロード。
 
+<br/>
 
 ### 設定USB作成方法
 2. ダウンロードしたZIPファイルを解凍する。
@@ -26,12 +28,14 @@
       │
       └─feedback
    ```
+<br/>
 
 ### 設定反映方法
 
-https://support.zebra.com/ja/article/000022736
+[USBミラーを使用してZebraプリンターをセットアップ、構成し、ファイルをコピーする](https://support.zebra.com/ja/article/000022736)
+<br/>
 
-### ファイル
+### ファイルリスト
 
    | ファイル名    | 用途 |
    |-|-|
