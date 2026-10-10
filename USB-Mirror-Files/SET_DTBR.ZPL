@@ -2,7 +2,8 @@
 
 -- Media設定
 ! U1 setvar "media.thermal_mode" "DT"
-! U1 setvar "media.sense_mode" "gap"
+! U1 setvar "media.sense_mode" "bar"
+! U1 setvar "ezpl.media_type" "mark"
 ! U1 setvar "ezpl.label_length_max" "10"
 
 -- 電源設定

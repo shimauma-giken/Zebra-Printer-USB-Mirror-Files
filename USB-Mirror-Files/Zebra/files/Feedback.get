@@ -68,6 +68,7 @@ Language	= <display.language>
 # Media Settings
 ---------------------
 Printmode	= <ezpl.print_mode>
+Media Type = <ezpl.media_type>
 Thermal mode	= <media.thermal_mode>
 Sense mode	= <media.sense_mode>
 Speed		= <media.speed>
@@ -114,6 +115,14 @@ Running Program	= <zbi.running_program_name>
 Label length/odo= <odometer.total_print_length>
 Print length/odo= <odometer.label_dot_length>
 
+# Nucleus
+---------------------
+weblink.logging.max_entries = <weblink.logging.max_entries>
+weblink.ip.conn1.location   = <weblink.ip.conn1.location>
+
+# weblink.logging.entries
+---------------------
+<weblink.logging.entries>
 
 # Stored Files
 ---------------------

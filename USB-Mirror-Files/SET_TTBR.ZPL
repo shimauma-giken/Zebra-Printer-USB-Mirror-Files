@@ -1,9 +1,11 @@
 -- デモ環境用設定
 
 -- Media設定
-! U1 setvar "media.thermal_mode" "DT"
+! U1 setvar "media.thermal_mode" "TT"
 ! U1 setvar "media.sense_mode" "bar"
 ! U1 setvar "ezpl.label_length_max" "10"
+! U1 setvar "ezpl.media_type" "mark"
+
 
 -- 電源設定
 ! U1 setvar "power.energy_star.enable" "off"

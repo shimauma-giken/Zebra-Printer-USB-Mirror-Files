@@ -1,7 +1,49 @@
-# USBメモリを用いてZEBRA ZTシリーズを設定する方法
+## Zebra Link-OSプリンタ用のUSB-Mirrorファイル
 
-1. 本リポジトリのファイルを全てダウンロードする。
-2. Fat32 フォーマット済みのUSBメモリにダウンロードしたファイルを全てコピーする。  
-3. USBメモリをZT プリンタに挿す。
-4. 液晶画面 > [フォルダ]アイコン > [印刷：USBから] > [任意の設定ZPL] > [チェック] で設定をする
+### ダウンロード方法
+
+1. 本頁の[ <>Code ] > [ Download ZIP ]を選択し、ダウンロード。
+
+
+### 設定USB作成方法
+2. ダウンロードしたZIPファイルを解凍する。
+3. USBメモリをFat32でフォーマットする。
+4. zebraフォルダと必要なファイルををUSBメモリのルートにコピーする。
+
+   ```
+   E:.
+   │  DEL_STAMP.ZPL ★
+   │  PRT_TEST.ZPL  ★
+   │  SET_CALB.ZPL  ★
+   │
+   └─Zebra
+      ├─appl
+      ├─commands
+      │      SET_DTBR.ZPL
+      │
+      ├─files
+      │      Feedback.get
+      │
+      └─feedback
+   ```
+
+### 設定反映方法
+
+https://support.zebra.com/ja/article/000022736
+
+### ファイル
+
+   | ファイル名    | 用途 |
+   |-|-|
+   | DEL_STAMP.ZPL	| USBメモリタイムスタンプ削除用	| 
+   | PRT_TEST.ZPL	| 印刷テスト用（印刷のみ）	| 
+   | RFID_RO1.zpl	| 印刷テスト用（RFID Read）	| 
+   | RFID_RW1.ZPL	| 印刷テスト用（RFID Write）	| 
+   | SET_CALB.ZPL	| 設定用（用紙キャリブレーション）	| 
+   | SET_DTBR.ZPL	| 設定用（感熱、黒マーク）	| 
+   | SET_DTGP.ZPL	| 設定用（感熱、ギャップ）	| 
+   | SET_TTBR.ZPL	| 設定用（熱転写、黒マーク）	| 
+   | SET_TTGP.ZPL	| 設定用（熱転写、ギャップ）	| 
+
+
 
